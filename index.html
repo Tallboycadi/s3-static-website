@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cliffton Benford | Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background: #1e40af;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      section.projects {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+      .project {
+        background: white;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .project img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .contact-section {
+        max-width: 600px;
+        margin: 4rem auto;
+        padding: 2rem;
+        background: #f9f9f9;
+        border-radius: 8px;
+      }
+      .contact-section h2 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+      .contact-section label {
+        display: block;
+        margin-top: 1rem;
+        font-weight: bold;
+      }
+      .contact-section input,
+      .contact-section textarea {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .contact-section button {
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #1e40af;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+    <header class="bg-blue-700 text-white py-8 text-center">
+      <h1 class="text-4xl font-bold">Cliffton Benford</h1>
+      <p class="text-lg mt-2">
+        Cloud & DevOps Engineer | AWS | Terraform | Kubernetes
+      </p>
+
+      <div class="mt-4 flex justify-center gap-3">
+        <a
+          href="https://github.com/Tallboycadi"
+          class="bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-blue-50"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/clifftonbenford-47439036a"
+          class="bg-blue-500 text-white font-semibold px-4 py-2 rounded hover:bg-blue-600"
+          >LinkedIn</a
+        >
+        <a
+          href="mailto:Dashtondrivers@gmail.com"
+          class="bg-blue-700 text-white font-semibold px-4 py-2 rounded hover:bg-blue-800"
+          >Email Me</a
+        >
+      </div>
+    </header>
+
+    <section class="py-10 max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">About Me</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        I'm a cloud infrastructure specialist passionate about scalable systems,
+        automation, and modern DevOps. I work with AWS, Docker, Kubernetes, and
+        IaC tools like Terraform and Ansible. Below are some of the real-world
+        projects I’ve built.
+      </p>
+    </section>
+
+    <section class="bg-gray-100 py-12">
+      <div class="max-w-5xl mx-auto px-4">
+        <!-- Skills & Tools -->
+        <section class="py-10 max-w-5xl mx-auto px-4">
+          <h2 class="text-2xl font-bold mb-4">Skills & Tools</h2>
+          <div class="flex flex-wrap items-center gap-2">
+            <img
+              src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"
+              alt="AWS"
+            />
+            <img
+              src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"
+              alt="Terraform"
+            />
+            <img
+              src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+              alt="Docker"
+            />
+            <img
+              src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"
+              alt="Kubernetes"
+            />
+            <img
+              src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+              alt="Linux"
+            />
+            <img
+              src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"
+              alt="GitHub Actions"
+            />
+          </div>
+        </section>
+
+        <h2 class="text-2xl font-bold mb-6 text-center">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2">Scalable Web App on AWS</h3>
+            <p class="text-gray-700 mb-2">
+              Deployed a containerized Node.js app using ECS, ALB, and RDS.
+              Implemented CI/CD using GitHub Actions.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2">
+              Infrastructure as Code with Terraform
+            </h3>
+            <p class="text-gray-700 mb-2">
+              Provisioned full AWS architecture (VPC, EC2, RDS, S3) using
+              reusable Terraform modules.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2">
+              Docker containers fundamentals
+            </h3>
+            <p class="text-gray-700 mb-2">
+              I created docker images Using dockerfile. I uploaded images to
+              docker registry and I built images
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2">
+              Cloud Security & Compliance
+            </h3>
+            <p class="text-gray-700 mb-2">
+              Automated security group audits and IAM policy validations using
+              AWS Config and Lambda.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="_replyto" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="py-10 max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">My Details</h2>
+      <p class="text-gray-700 mb-2">
+        📧 Email:
+        <a
+          href="mailto:Dashtondrivers@gmail.com"
+          class="text-blue-600 hover:underline"
+          >Six5stallion@gmail.com</a
+        >
+      </p>
+      <p class="text-gray-700 mb-2">
+        🔗 LinkedIn:
+        <a href="#" class="text-blue-600 hover:underline"
+          >www.linkedin.com/in/clifftonbenford-47439036a</a
+        >
+      </p>
+      <p class="text-gray-700">
+        💼 GitHub:
+        <a href="#" class="text-blue-600 hover:underline"
+          >github.com/Tallboycadi</a
+        >
+      </p>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-6">
+      <p>&copy; 2025 Cliffton Benford. Built with ♥ and hosted on Amazon S3.</p>
+    </footer>
+  </body>
+</html>
